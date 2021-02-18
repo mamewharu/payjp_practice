@@ -1,5 +1,5 @@
 <%= form_with  model: @order, id: 'charge-form', class: 'card-form',local: true do |f| %>
-
+<%# 入力エラーがあった時部分テンプレート読み込む %>
 <%= render 'layouts/error_messages', model: @order %>
 
   <div class='form-wrap'>
